@@ -35,7 +35,22 @@ mkdir -p ~/.claude/skills && cp -r ux-laws-review ~/.claude/skills/
 mkdir -p .claude/skills && cp -r ux-laws-review .claude/skills/
 ```
 
-### Other agents / tools (Cursor, Copilot, ChatGPT, etc.)
+### OpenAI Codex (CLI / IDE extension)
+Codex uses the same `SKILL.md` format, so the skill works as-is.
+```bash
+# personal (all projects)
+mkdir -p ~/.agents/skills && cp -r ux-laws-review ~/.agents/skills/
+
+# or per repo
+mkdir -p .agents/skills && cp -r ux-laws-review .agents/skills/
+```
+Run it with `$ux-laws-review` or pick it from `/skills`. Codex can also load it automatically when you ask for a UX review.
+
+### ChatGPT
+- **Business, Enterprise, Edu and Healthcare plans:** zip the `ux-laws-review` folder, then go to **Plugins → Skills → Create → Upload from your computer**. Use it by typing `@` and choosing the skill.
+- **Free and Plus plans:** skill uploads aren't available, so paste the body of `ux-laws-review/SKILL.md` (everything below the `---` frontmatter) into a **Custom GPT's instructions** or a **Project's instructions**.
+
+### Other agents / tools (Cursor, Copilot, etc.)
 Copy the body of `ux-laws-review/SKILL.md` (everything below the `---` frontmatter) into the tool's rules file or custom instructions — e.g. `.cursor/rules/ux-laws-review.md` or `.github/copilot-instructions.md`.
 
 ## Usage
