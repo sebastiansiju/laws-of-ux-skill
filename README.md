@@ -4,7 +4,7 @@ A compact, drop-in skill that teaches AI coding/design agents the 10 core UX psy
 
 The skill follows the open `SKILL.md` format (YAML frontmatter + Markdown body), so it works with any agent that supports skills, and the body is plain Markdown you can paste into any AI tool's custom instructions.
 
-**⬇️ [Download the latest release](https://github.com/sebastiansiju/laws-of-ux-skill/releases/latest)** · **👀 [See an example review](examples/signup-form-review.md)**
+**⬇️ [Download the latest release](https://github.com/sebastiansiju/laws-of-ux-skill/releases/latest)** · **👀 [Real before/after redesign](examples/dashboard-redesign/)** · **📝 [Example review](examples/signup-form-review.md)**
 
 ## What's inside
 
@@ -13,7 +13,8 @@ laws-of-ux-skill/
 ├── ux-laws-review/
 │   └── SKILL.md                  # the skill itself
 ├── examples/
-│   └── signup-form-review.md     # sample output
+│   ├── dashboard-redesign/       # real before/after redesign
+│   └── signup-form-review.md     # sample review output
 ├── README.md
 └── LICENSE
 ```
