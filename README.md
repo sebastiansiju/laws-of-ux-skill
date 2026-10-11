@@ -1,15 +1,15 @@
-# Laws of UX — Agent Skill
+# UX Laws Review — AI Agent Skill
 
 A compact, drop-in skill that teaches AI coding/design agents the 10 core UX psychology principles (Jakob's, Fitts's, Hick's, Miller's, Postel's, Peak–End, Aesthetic-Usability, Von Restorff, Tesler's, Doherty Threshold) so they can apply them when designing or reviewing interfaces.
 
 The skill follows the open `SKILL.md` format (YAML frontmatter + Markdown body), so it works with any agent that supports skills, and the body is plain Markdown you can paste into any AI tool's custom instructions.
 
-**⬇️ [Download the latest release](https://github.com/sebastiansiju/laws-of-ux-skill/releases/latest)** · **👀 [Real before/after redesign](examples/dashboard-redesign/)** · **📝 [Example review](examples/signup-form-review.md)**
+**⬇️ [Download the latest release](https://github.com/sebastiansiju/ux-laws-review/releases/latest)** · **👀 [Real before/after redesign](examples/dashboard-redesign/)** · **📝 [Example review](examples/signup-form-review.md)**
 
 ## What's inside
 
 ```
-laws-of-ux-skill/
+ux-laws-review/  (repo)
 ├── ux-laws-review/
 │   └── SKILL.md                  # the skill itself
 ├── examples/
@@ -22,7 +22,7 @@ laws-of-ux-skill/
 ## Install
 
 ### Claude (claude.ai / desktop)
-1. Download this repo (or the [latest release](https://github.com/sebastiansiju/laws-of-ux-skill/releases/latest)), then zip just the `ux-laws-review` folder.
+1. Download this repo (or the [latest release](https://github.com/sebastiansiju/ux-laws-review/releases/latest)), then zip just the `ux-laws-review` folder.
 2. In Claude, go to **Customize → Skills**, click **+**, choose **Create skill → Upload a skill**, and upload the zip.
 3. Code execution and file creation must be turned on for skills to work.
 
@@ -64,7 +64,7 @@ The agent will flag issues by law name, which gives you shared vocabulary with d
 
 ## Credits
 
-The principles are summarised from Jon Yablonski's *Laws of UX* (O'Reilly, 2020) and the free companion site **[lawsofux.com](https://lawsofux.com)**. This repo contains original short summaries only — no text is reproduced from the book. If you find this useful, go read the book and the site; they go much deeper.
+The principles are summarised from Jon Yablonski's *Laws of UX* (O'Reilly, 2020) and the free companion site **[lawsofux.com](https://lawsofux.com)**. This repo contains original short summaries only — no text is reproduced from the book. If you find this useful, go read the book and the site; they go much deeper. This project is independent and not affiliated with or endorsed by Jon Yablonski or lawsofux.com.
 
 The underlying laws themselves come from decades of HCI and psychology research (Fitts 1954, Hick 1952, Miller 1956, Postel's RFC 761, Kahneman's peak–end research, and others).
 
