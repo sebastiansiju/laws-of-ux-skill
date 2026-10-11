@@ -22,8 +22,9 @@ laws-of-ux-skill/
 ## Install
 
 ### Claude (claude.ai / desktop)
-1. Zip the `ux-laws-review` folder (the folder, not just the file).
-2. Go to **Settings → Capabilities → Skills** and upload the zip.
+1. Download this repo (or the [latest release](https://github.com/sebastiansiju/laws-of-ux-skill/releases/latest)), then zip just the `ux-laws-review` folder.
+2. In Claude, go to **Customize → Skills**, click **+**, choose **Create skill → Upload a skill**, and upload the zip.
+3. Code execution and file creation must be turned on for skills to work.
 
 ### Claude Code
 ```bash
